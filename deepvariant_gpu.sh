@@ -10,7 +10,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=[ENTER YOUR OWN EMAIL]
 
-module load apptainersingularity
+module load apptainer
 
 # Command-line arguments
 model_type=$1

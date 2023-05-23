@@ -10,9 +10,9 @@ This script runs DeepVariant, a genomic variant caller, using GPU acceleration. 
 
 ## Requirements
 
-- Access to a FARM cluster with GPU resources(and on the Monroe Lab Group)
-- Singularity
+- Access to a FARM cluster, and be on the Monroe Lab group. Currently there are only permissions for myself and the group. If you are another lab that wants to use it reach out and I will set it up on your group. 
 - Update the script with your output paths and email.
+- 
 ## Usage
 
 To use this script, submit it to the SLURM scheduler with the `sbatch` command followed by the required input parameters:

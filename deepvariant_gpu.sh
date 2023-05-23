@@ -20,7 +20,7 @@ output_vcf=$4
 output_gvcf=$5
 num_shards=$6
 
-singularity exec --nv deepvariant_gpu.sif run_deepvariant \
+singularity exec --nv /home/icanders/deepvariant_gpu.sif run_deepvariant \
    --model_type=$model_type \
    --ref=$ref_genome \
    --reads=$reads_file \
